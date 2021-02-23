@@ -11,7 +11,7 @@ h1
 .myForm {
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 font-size: 0.8em;
-color: hsla(89, 43%, 51%, 0.6);
+color: red;
 font-style: oblique;
 width: 20em;
 padding: 1em;
