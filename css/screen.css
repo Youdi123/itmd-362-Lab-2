@@ -5,9 +5,10 @@ body
 h1
 {
   font-family: Arial;
-  align-self: center;
+  text-align: center;
+  font-size: 15px;
 }
-fieldest 
+p
 {
   font-family: Times New Roman;
   font-style: oblique;
