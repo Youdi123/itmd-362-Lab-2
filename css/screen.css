@@ -4,20 +4,54 @@ body
   font-family: Arial;
   font-size: 15px;
 }
+
 h1
 {
   text-align: center;
 }
+
 .myForm {
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-font-size: 10pt;
-color: red;
-font-style: oblique;
-width: 20em;
-padding: 1em;
-border: 1px solid #ccc;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 10pt;
+  width: 30em;
+  padding: 1em;
 }
 
 .myForm * {
-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.myForm label 
+{
+  padding: 0;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+}
+
+.myForm input
+{
+  margin-left: 2em;
+  float: right;
+  width: 20em;
+  border: 1px solid #ccc;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 7pt;
+  padding: 0.3em;
+}
+
+.myForm button 
+{
+  padding: 1em;
+  border-radius: 0.5em;
+  background: #eee;
+  border: none;
+  font-weight: bold;
+  margin-left: 14em;
+  margin-top: 1.8em;
+}
+
+.myForm button:hover {
+  background: #ccc;
+  cursor: pointer;
 }
