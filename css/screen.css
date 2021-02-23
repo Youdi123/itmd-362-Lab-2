@@ -1,11 +1,11 @@
 body 
 {
   background-color: lightblue;
+  font-family: Arial;
+  font-size: 15px;
 }
 h1
 {
-  font-family: Arial;
-  font-size: 15px;
   text-align: center;
 }
 #f
